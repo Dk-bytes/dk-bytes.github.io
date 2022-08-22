@@ -1,0 +1,110 @@
+<!DOCTYPE html><!--Darlene -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link to javascript file-->
+    <script src="crank.js"></script>
+    <!--link HTML with css file-->
+    <link rel="stylesheet" type = "text/css" href="crank.css">
+    <title>chart1</title>
+</head>
+<body>
+
+     
+    <br>
+    <h1 ><b>
+        Conversions Chart<!--bold,header-->
+    </b></h1>
+</table> <!-- making table-->
+<table id ="data" border = "2" width = "60%"><!-- how much room the table will take-->
+    <col style = "width: 30%"><!--how wide the columns are-->
+    <col style = "width: 15%"><!--how wide the columns are-->
+    <col style = "width: 15%"><!--how wide the columns are-->
+   <thead>
+        <tr style = "font-family:Times New Roman;"> <!--font for table =Times New Roman--> 
+        <th><b>Multiply:</b></th><!--making 1st table header and text bold-->
+        <th><b>by:</b></th><!--making 2nd table header and text bold-->
+        <th><b>to get:</b></th><!--making 3rd table header and text bold-->
+        
+    </tr>    
+   </thead><!--Table data-->
+
+   <tbody style=" font-weight: bolder;"><!--make font bolder-->
+    <tr id="row 1"><td style="color:blue;"><b>ACCELERATION</b></td></tr><!--style blue font, creating and adding content row 1--> 
+    <tr id="row 2"><td>feet/sec^2</td><td> x 0.3048</td><td>=meter/sec^2 (m/s^2)</td></tr><!--creating and adding content in row 2-->
+    <tr id="row 3"><td>inches/sec^2</td><td> x 0.0254</td><td>=meter/sec^2 (m/s^2)</td></tr><!--creating and adding content in row 3-->
+    <tr id="row 4"><td>meters/sec^2(m/s^2)</td><td> x 3.281</td><td>=feet/sec^2 </td></tr><!--creating and adding content in row 4-->
+    <tr id="row 5"><td> meters/sec^2(m/s^2)</td><td> x 39.37</td><td>=inches/sec^2 </td></tr><!--creating and adding content in row 5-->
+    <tr id="row 6"><td style="color:blue;"><b>ENERGY OF WORK (watt=second = joule = newton meter)</b></td></tr><!--style blue font ,creating and adding content in row 6-->
+    <tr id="row 7"><td>foot-pounds</td><td>x 1.3558</td><td>=joules(J)</td></tr><!--creating and adding content in row 7-->
+    <tr id="row 8"><td>calories</td><td>x 4.187</td><td>=joules(J)</td></tr><!--creating and adding content in row 8-->
+    <tr id="row 9"><td>Btu</td><td>x 1055</td><td>=joules(J)</td></tr><!--creating and adding content in row 9 -->
+    <tr id="row 10"><td>watt-hours</td><td>x 3600</td><td>=joules(J)</td></tr><!--creating and adding content in row 10-->
+    <tr id="row 11"><td>kilowatt-hours</td><td>x 3.600</td><td>=megajoules(MJ)</td></tr><!--creating and adding content in row 11-->
+    <tr id="row 12"><td>joules(J)</td><td>x .7376</td><td>=footpounds</td></tr><!--creating and adding content in row 12-->
+    <tr id="row 13"><td>joules(J)</td><td>x .2388</td><td>=calories</td></tr><!--creating and adding content in row 13 -->
+    <tr id="row 14"><td>joules(J)</td><td>x .000948</td><td>=Btu</td></tr><!--creating and adding content in row 14-->
+    <tr id="row 15"><td>joules(J)</td><td>x .0002778</td><td>=watt-hours</td></tr><!--creating and adding content in row 15-->
+    <tr id="row 16"><td>megajoules(MJ)</td><td>x .2778</td><td>=kilowatt-hours</td></tr><!--creating and adding content in row 16-->
+    <tr id="row 17"><td style="color:blue;"><b>FUEL ECONOMY AND FUEL CONSUMPTION</b></td></tr><!--style blue font, creating and adding content in row 17-->
+    <tr id="row 18"><td>miles/gal</td><td>x 0.42514</td><td>=kilometers/liter(km/L)</td></tr><!--creating and adding content in row 18-->
+    <tr id="row 19"><td style="color:#ff00ff">Note:</td></tr><!--style #ff00ff font, creating and adding content in row 19-->
+    <tr id="row 20"><td>235.2/(mi/gal) = liters/100km</td></tr><!--creating and adding content in row 20-->
+    <tr id="row 21"><td>235.2/(liters/100 km) = mi/gal</td></tr><!--creating and adding content in row 21-->
+    <tr id="row 22"><td style="color:blue;"><b>LIGHT</b></td></tr><!--style blue font, creating and adding content in row 22-->
+    <tr id="row 23"><td>foot-candles</td><td>x 10.76</td><td>=lumens/meter^2(lm/m^2</td></tr><!--creating and adding content in row 23-->
+    <tr id="row 24"><td>lumens/meter^2(lm/m^2</td><td>x 0.0929</td><td>=foot-candles</td></tr><!--creating and adding content in row 24-->
+    <tr id="row 25"><td style="color:blue;">PRESSURE OF STRESS(newton/sq meter = pascal)</td></tr><!--style blue font, creating and adding content in row 25-->
+    <tr id="row 26"><td>inches Hg(60 deg.F)</td><td>x3.377</td><td>= kilopascals(kPa)</td></tr><!--creating and adding content in row 26-->
+    <tr id="row 27"><td>pounds/sq in</td><td>x 6.895</td><td>= kilopascals(kPa)</td></tr><!--creating and adding content in row 27-->
+    <tr id="row 28"><td>inchs H2O(60 deg.F)</td><td>x 0.2488</td><td>= kilopascals(kPa)</td></tr><!--creating and adding content in row 28-->
+    <tr id="row 29"><td>bars</td><td>x 100</td><td>= kilopascals(kPa)</td></tr><!--creating and adding content in row 29-->
+    <tr id="row 30"><td>pounds/sq in</td><td>x 47.88</td><td>= pascals(Pa)</td></tr><!--creating and adding content in row 30-->
+    <tr id="row 31"><td>kilopascals(kPa)</td><td>x 0.2961</td><td>= inches Hg</td></tr><!--creating and adding content in row 31-->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+    <tr id="row 32"><td>kilopascals(kPa)</td><td>x 0.145</td><td>= pounds/sq in</td></tr><!--creating and adding content in row 32-->                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+    <tr id="row 33"><td>kilopascals(kPa)</td><td>x 4.0193</td><td>= inches H2O</td></tr><!--creating and adding content in row 33-->
+    <tr id="row 34"><td>kilopascals(kPa)</td><td>x 0.01</td><td>= bars</td></tr><!--creating and adding content in row 34-->
+    <tr id="row 35"><td>pascals(Pa)</td><td>x 0.02088</td><td>= pounds/sq ft</td></tr><!--creating and adding content in row 35-->
+    <tr id="row 36"><td style="color:blue;">POWER</td></tr><!--style blue font, creating and adding content in row 36-->
+    <tr id="row 37"><td>housepower</td><td>x 0.746</td><td>= kilowatts(kw)</td></tr><!--creating and adding content in row 37-->
+    <tr id="row 38"><td>ft-lbf/min</td><td>x 0.226</td><td>= watts(W)</td></tr><!--creating and adding content in row 38-->
+    <tr id="row 39"><td>kilowatts(kw)</td><td>x 1.34</td><td>= housepower</td></tr><!--creating and adding content in row 39-->
+    <tr id="row 40"><td>watts(W)</td><td>x 44.25</td><td>= ft-lbf/min</td></tr><!--creating and adding content in row 40-->
+    <tr id="row 41"><td>TORQUE</td></tr><!--creating and adding content in row 41-->
+    <tr id="row 42"><td>pound-inches<td>x 0.11298<td>= newton-meters(N m)</td></tr><!--creating and adding content in row 42 -->
+    <tr id="row 43"><td>pound-feet<td>x 1.3558<td>= newton-meters(N m)</td></tr><!--creating and adding content in row 43-->
+    <tr id="row 44"><td>newton-meters(N m)<td>x 8.851<td>= pound-inches</td></tr><!--creating and adding content in row 44-->
+    <tr id="row 45"><td>newton-meters(N m)<td>x 0.7376<td>= pound-feet</td></tr><!--creating and adding content in row 45-->
+    <tr id="row 46"><td style="color:blue;">VELOCITY</td></tr><!--style blue font, creating and adding content in row 46-->
+    <tr id="row 47"><td>miles/hour</td><td>x 1.6093</td><td>= kilometers/hour(km/h)</td></tr><!--creating and adding content in row 47-->
+    <tr id="row 48"><td>feet/sec</td><td>x 0.3048</td><td>= meters/sec(m/s)</td></tr><!--creating and adding content in row 48-->
+    <tr id="row 49"><td>kilometers/hr</td><td>x 0.27778</td><td>= meters/sec(m/s)</td></tr><!--creating and adding content in row 49-->
+    <tr id="row 50"><td>miles/hour</td><td>x 0.4470</td><td>= meters/sec(m/s))</td></tr><!--creating and adding content in row 50-->
+    <tr id="row 51"><td>kilomters/hours(km/h)</td><td>x 0.6214</td><td>= miles/hour</td></tr><!--creating and adding content in row 51-->
+    <tr id="row 52"><td>meters/sec(m/s)</td><td>x 3.281</td><td>= feet/sec</td></tr><!--creating and adding content in row 52-->
+    <tr id="row 53"><td>meters/sec(m/s)</td><td>x 3.600</td><td>= kilometers/hr</td></tr><!--creating and adding content in row 53-->
+    <tr id="row 54"><td>meters/sec(m/s)</td><td>x 2.237</td><td>= miles/hour</td></tr><!--creating and adding content in row 45-->
+    <tr id="row 55"><td style="color:#ff00ff">COMMON METRIC PREFIXES</td></tr><!--style #ff00ff font, creating and adding content in row 55-->
+    <tr id="row 56"><td>mega (M)</td><td>= 1 000 000</td><td>or 10^6</td></tr><!--creating and adding content in row 56-->
+    <tr id="row 57"><td>kilo (K)</td><td>= 1 000</td><td>or 10^3</td></tr><!--creating and adding content in row 57-->
+    <tr id="row 58"><td>hecto (h)</td><td>= 100</td><td>or 10^2</td></tr><!--creating and adding content in row 58-->
+    <tr id="row 59"><td>centi (c)</td><td>= 0.01</td><td>or 10^-2</td></tr><!--creating and adding content in row 59-->
+    <tr id="row 60"><td>milli (m)</td><td>= 0.001</td><td>or 10^-3</td></tr><!--creating and adding content in row 60 -->
+
+    
+    <table class="sheet"> <!--make a table-->
+        <td><p class="menuhead"><b>Navigation Menu</b></p><!--table data, bold navagation menu-->
+                <button class="sheet0" onclick="launding()">Index</button><br><!--make button index--><!--break-->
+                <button class="sheet1" onclick="degree()">Objectives</button><br><!--make button objectives--><!--break-->
+                <button class="sheet2" onclick="Login()">UAT login</button><br><!--make button Uat login--><!--break-->
+                <button class="sheet3" onclick="efficiency()">UAT Timer </button><br><!--make button Uat timer--><!--break-->
+                <button class="sheet4" onclick="table()">Tables</button><br><!--make button Tables--><!--break-->
+                <button class="sheet5" onclick="convertTable()">Converters</button><br><!--make button converters--><!--break-->
+        </td>
+    
+    </table>
+
+</body><!--close body--> 
+</html><!--close html--> 

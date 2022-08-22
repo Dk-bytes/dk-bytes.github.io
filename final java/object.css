@@ -1,0 +1,115 @@
+
+
+
+body{
+    height: 400px;
+    background-image: linear-gradient(to right, #71b7e6,#ff00ff);
+    margin:35px;
+    
+}
+h1{
+    text-align: center;
+    font-size:50px;
+    border-radius:5px;
+}
+.obs{
+    text-align: center;
+    font-size:40px;
+    border-radius:5px;
+}
+.para1{
+    
+    font-size:30px;
+    font-style: italic;
+    color:#3333bb;
+}
+.para2{
+    font-size:30px;
+}
+.geart{
+    width: 350px;
+    border-radius: 5px;
+    margin-right: 300px;
+ 
+    padding: 50px;
+}
+.menuhead{
+    font-size:30px;
+}
+button {
+    padding: 16px 30px;
+    margin: 6px 3px;
+    border:#3333bb;
+    border-radius: 5px;
+    height: 60px;
+    background-image: radial-gradient(rgb(0, 255, 251),rgb(47, 203, 42));
+    width: 150px;
+    text-decoration-color: rgb(6, 6, 84);
+    text-align: center;
+    font-size:30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.menuhead{
+    margin-left: 35px;
+    font-family: Pristina;
+    font-size:30px;
+}
+.sheet0 {
+    width:225px;
+    height:60px;
+    border-radius:5px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+    cursor: pointer;
+}
+.sheet1{
+
+    width:225px;
+    height:60px;
+    border-radius:5px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+    cursor: pointer;
+}
+
+.sheet2 {
+    width:225px;
+    height:60px;
+    border-radius:5px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+    cursor: pointer;
+}
+.sheet3 {
+    width:225px;
+    height:60px;
+    border-radius:5px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+    cursor: pointer;
+}
+
+.sheet4 {
+    width:225px;
+    height:60px;
+    border-radius:5px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+    cursor: pointer;
+
+}
+.sheet5{
+    width:225px;
+    height:60px;
+    border-radius:5px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+    cursor: pointer;
+}

@@ -1,0 +1,117 @@
+*
+{
+    text-align: center;
+}
+body{
+    height: 400px;
+    background-image: linear-gradient(to right, #71b7e6,#ff00ff);
+    margin:25px
+    
+}
+h1{
+    text-align: center;
+    font-size:40px;
+    border-radius:5px;
+}
+.one{
+    text-align: center;
+    font-size:30px;
+   font-style: italic;
+   color:#3333bb;
+}
+h2{
+    margin-right:950px;
+    margin-top: 200px;
+}
+.colorBlock{
+    width: 800px;
+    border-radius: 5px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.aud{
+    margin-right: 950px;
+}
+.menuhead{
+    font-family: Pristina;
+    font-size:30px;
+    margin-left:160px;
+}
+button {
+    padding: 16px 30px;
+    margin: 6px 3px;
+    border:#3333bb;
+    border-radius: 5px;
+    height: 60px;
+    background-image: radial-gradient(rgb(0, 255, 251),rgb(47, 203, 42));
+    width: 150px;
+    text-decoration-color: rgb(6, 6, 84);
+    text-align: center;
+    font-size:30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.sheet0{
+    margin-left:140px;
+    width:225px;
+    height:60px;
+    border-radius:5px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+    cursor: pointer;
+}
+
+.sheet1{
+    margin-left:140px;
+    width:225px;
+    height:60px;
+    border-radius:5px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+    cursor: pointer;
+}
+
+.sheet2 {
+    margin-left:140px;
+    width:225px;
+    height:60px;
+    border-radius:5px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+    cursor: pointer;
+}
+.sheet3 {
+    margin-left:140px;
+    width:225px;
+    height:60px;
+    border-radius:5px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+    cursor: pointer;
+}
+
+.sheet4 {
+    margin-left:140px;
+    width:225px;
+    height:60px;
+    border-radius:5px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+    cursor: pointer;
+
+}
+.sheet5{
+    margin-left:140px;
+    width:225px;
+    height:60px;
+    border-radius:5px;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    font-size:30px;
+    cursor: pointer;
+}
